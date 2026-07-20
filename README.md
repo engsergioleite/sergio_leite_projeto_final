@@ -37,7 +37,7 @@ A análise exploratória foi realizada utilizando a biblioteca Pandas e dividida
 ## Principais resultados encontrados
 
 ### 1. Distribuição Salarial e Outliers
-![Distribuição Salarial](data/identificacao_outlier.png.png)
+![Distribuição Salarial](data/identificacao_outlier.png)
 
 * A maioria dos colaboradores está concentrada na faixa salarial de entrada e intermediária, enquanto os outliers identificados no gráfico representam cargos executivos/especialistas com remuneração acima da média do grupo.
 
@@ -45,6 +45,14 @@ A análise exploratória foi realizada utilizando a biblioteca Pandas e dividida
 ![Volume por Região](data/analise_agrupada_geografia.png)
 
 * A contagem de colaboradores indicou uma forte concentração do contingente americano, sendo dele o dobro do contingente europeu.
+
+### 3. Análise de salários pós merge entre o df_salarios e df_geografia
+![Análise Avançada de Salários](data/analise_avancada_salarios.png)
+
+* Distribuição Salarial por Departamento (Boxplot): Identificação de dispersão, mediana e presença de outliers salariais por setor.
+* Média Salarial por Região (Gráfico de Barras): Comparativo do ticket médio salarial entre as regiões operacionais.
+* A média salarial na Europa é quase 50% maior que da America
+* Na distribuição de salários por departamento, é visivel o outlier demonstrado na imagem identificacao_outlier.png, onde os salários dos executivos é muito maior que a média dos outros setores. Estes setores que agora mostram muito melhor a média de cada um. 
 
 ## Como executar o projeto
 
@@ -72,6 +80,9 @@ A análise exploratória foi realizada utilizando a biblioteca Pandas e dividida
 
 ### Análise Agrupada de Geografia
 ![Análise de Geografia](data/analise_agrupada_geografia.png)
+
+### Análise de salários pós merge entre o df_salarios e df_geografia
+![Análise Avançada de Salários](data/analise_avancada_salarios.png)
 
 ## Estrutura de Branches
 
