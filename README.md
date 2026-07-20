@@ -65,3 +65,12 @@ A análise exploratória foi realizada utilizando a biblioteca Pandas e dividida
 
 ### Análise Agrupada de Geografia
 ![Análise de Geografia](data/analise_agrupada_geografia.png)
+
+## Estrutura de Branches
+
+O desenvolvimento do projeto foi modularizado em ramificações específicas para cada etapa:
+
+* **`main`**: Versão estável e consolidada do projeto.
+* **`feature/consultas-sql`**: Desenvolvimento e validação das consultas SQL (`Consulta 1` e `Consulta 2`).
+* **`feature/analise-python`**: Execução da análise exploratória de dados (EDA) e geração dos gráficos.
+* **`docs/readme-projeto`**: Estruturação e atualização da documentação técnica no `README.md`.
