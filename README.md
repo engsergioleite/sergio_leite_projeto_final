@@ -101,3 +101,27 @@ Para corrigir o histórico e padronizar a entrega, foi realizada uma **refatora�
 
 1. **Mapeamento de Branches:** As etapas concluídas foram retroativamente isoladas em branches dedicadas (`feature/consultas-sql`, `feature/analise-python`, `docs/readme-projeto`).
 2. **Adoção do Padrao Feature Branching:** A etapa pendente de cruzamento de dados e as alterações finais de documentação passam a ser versionadas estritamente em suas respectivas ramificações antes do `merge` com a branch `main`.
+
+## Estrutura de diretórios
+
+## 📁 Estrutura do Repositório
+
+sergio_leite_projeto_final/
+│
+├── data/                               # Dados extraídos e visualizações exportadas
+│   ├── query_01.csv
+│   ├── query_02.csv
+│   ├── analise_agrupada_geografia.png
+│   ├── analise_avancada_salarios.png
+│   └── identificacao_outlier.png
+│
+├── notebooks/                          # Análise exploratória e scripts Python
+│   └── analise.ipynb
+│
+├── sql/                                # Consultas SQL originais
+│   ├── query_01.sql
+│   └── query_02.sql
+│
+├── .gitignore                          # Arquivos ignorados pelo Git (.venv, etc)
+├── LICENSE                             # Licença do repositório
+└── README.md                           # Documentação do projeto
