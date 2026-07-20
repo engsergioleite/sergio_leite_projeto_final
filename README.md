@@ -36,8 +36,15 @@ A análise exploratória foi realizada utilizando a biblioteca Pandas e dividida
 
 ## Principais resultados encontrados
 
-* **Distribuição Salarial:** A média salarial foi calculada com presença de outliers mapeados no gráfico de distribuição.
-* **Volume por Região:** A contagem de colaboradores indicou a concentração do contingente nas maiores regiões operacionais.
+### 1. Distribuição Salarial e Outliers
+![Distribuição Salarial](data/identificacao_outlier.png.png)
+
+* A maioria dos colaboradores está concentrada na faixa salarial de entrada e intermediária, enquanto os outliers identificados no gráfico representam cargos executivos/especialistas com remuneração acima da média do grupo.
+
+### 2. Volume de Colaboradores por Região
+![Volume por Região](data/analise_agrupada_geografia.png)
+
+* A contagem de colaboradores indicou uma forte concentração do contingente americano, sendo dele o dobro do contingente europeu.
 
 ## Como executar o projeto
 
