@@ -12,8 +12,7 @@ A Análise foi desenvolvida para tratar dados e visualizar salários e a distrib
 
 ## Como Executar o Projeto
 
-1. **Criar uma pasta para o projeto**
-2. **Clonar o repositório: https://github.com/seu-usuario/sergio_leite_projeto_final.git na pasta criada**
-3. **Baixar e instalar o VSCode e Jupyter notebook**
-4. **Instalar o ambiente virtual e instalar o python 3.11**
-5. **Instalar importar as biblioecas pandas, seaborn, matplotlib e notebook**
+1. **Clonar o repositório: https://github.com/seu-usuario/sergio_leite_projeto_final.git**
+2. **Baixar e instalar o VSCode e Jupyter notebook**
+3. **Instalar o ambiente virtual e instalar o python 3.11**
+4. **Instalar importar as biblioecas pandas, seaborn, matplotlib e notebook**
