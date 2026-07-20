@@ -105,7 +105,7 @@ Para corrigir o histórico e padronizar a entrega, foi realizada uma **refatora�
 ## Estrutura de diretórios
 
 ## 📁 Estrutura do Repositório
-
+```text
 sergio_leite_projeto_final/
 │
 ├── data/                               # Dados extraídos e visualizações exportadas
@@ -125,3 +125,4 @@ sergio_leite_projeto_final/
 ├── .gitignore                          # Arquivos ignorados pelo Git (.venv, etc)
 ├── LICENSE                             # Licença do repositório
 └── README.md                           # Documentação do projeto
+```
