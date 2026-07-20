@@ -74,3 +74,12 @@ O desenvolvimento do projeto foi modularizado em ramificações específicas par
 * **`feature/consultas-sql`**: Desenvolvimento e validação das consultas SQL (`Consulta 1` e `Consulta 2`).
 * **`feature/analise-python`**: Execução da análise exploratória de dados (EDA) e geração dos gráficos.
 * **`docs/readme-projeto`**: Estruturação e atualização da documentação técnica no `README.md`.
+
+## Nota sobre o Fluxo de Versionamento
+
+Na fase final do projeto — restando a execução do cruzamento das bases de dados, a consolidação das análises no `README.md` e a validação final das consultas SQL, percebeu-se a necessidade de alinhar a estrutura do repositório (criação de branches especificas) aos requisitos formais de versionamento do edital.
+
+Para corrigir o histórico e padronizar a entrega, foi realizada uma **refatoração de fluxo no Git**:
+
+1. **Mapeamento de Branches:** As etapas concluídas foram retroativamente isoladas em branches dedicadas (`feature/consultas-sql`, `feature/analise-python`, `docs/readme-projeto`).
+2. **Adoção do Padrao Feature Branching:** A etapa pendente de cruzamento de dados e as alterações finais de documentação passam a ser versionadas estritamente em suas respectivas ramificações antes do `merge` com a branch `main`.
